@@ -1,0 +1,29 @@
+{
+    "name": "kylemassacre/banuser",
+    "description": "A module for Titan Framework to ban users and characters",
+    "authors": [
+        {
+            "name": "Kyle Ellis",
+            "email": "ky.ellis83@gmail.com"
+        }
+    ],
+    "extra": {
+        "titan": {
+            "name": "UserBan",
+            "namespace": "KyleMassacre\\BanUser"
+        },
+        "laravel": {
+            "providers": [
+                "KyleMassacre\\BanUser\\Providers\\BanUsersServiceProvider"
+            ],
+            "aliases" : {
+                "BanUser": "KyleMassacre\\BanUser\\Support\\Facades\\Facade"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "KyleMassacre\\BanUser\\": ""
+        }
+    }
+}

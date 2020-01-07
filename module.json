@@ -1,0 +1,13 @@
+{
+    "name": "BanUser",
+    "alias": "banuser",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "KyleMassacre\\BanUser\\Providers\\BanUserServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
