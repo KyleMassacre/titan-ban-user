@@ -14,7 +14,7 @@
         },
         "laravel": {
             "providers": [
-                "KyleMassacre\\BanUser\\Providers\\BanUsersServiceProvider"
+                "KyleMassacre\\BanUser\\Providers\\BanUserServiceProvider"
             ],
             "aliases" : {
                 "BanUser": "KyleMassacre\\BanUser\\Support\\Facades\\Facade"
